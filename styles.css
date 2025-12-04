@@ -35,12 +35,11 @@
   --z-fixed: 100;
 }
 
-* {
+*{
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-
 
 body,
 button,
@@ -160,4 +159,60 @@ button {
     top: .9rem;
     right: 1.25rem;
     cursor: pointer;
+}
+
+.home_container{
+    position: relative;
+}
+
+.home_img{
+    width: 240px;
+}
+
+.home_img-bg{
+    background-color: var(--first-color);
+    width: 258px;
+    height: 430px;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.home_social{
+    position: absolute;
+    top: 35%;
+    left: -5rem;
+    display: flex;
+}
+
+.home_social-link{
+    font-size: var(--smaller-font-size);
+    color: var(--text-color-light);
+}
+
+.home_social-link:hover{
+    color: var(--title-color);
+}
+
+.home_title{
+    font-size: var(--biggest-font-size);
+    font-weight: var(--font-bold);
+    margin-bottom: var(--mb-1);
+}
+
+.home_description{
+    margin-bottom: var(--mb-1-5);
+}
+
+.home_price{
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-medium);
+    color: var(--first-color);
+    margin-bottom: var(--mb-3);
+}
+
+h1, h2, h3, h4{
+    color: var(--title-color);
+    font-weight: var(--font-medium);    
 }
