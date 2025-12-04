@@ -95,3 +95,69 @@ button {
    margin-bottom: var(--mb-3);
    text-align: center;
 }
+
+.header{
+   width: 100%;
+   background: transparent;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: var(--z-fixed);
+}
+
+.nav{
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_logo, .nav_toggle, .nav_shop, .nav_close{
+    color: var(--title-color);
+}
+
+.nav_logo{
+   text-transform: uppercase;
+   font-weight: var(--font-bold);
+   align-items: center;
+}
+
+.nav_logo-icon{
+    font-size: 1.25rem;
+}
+
+.nav_btns{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.nav_toggle, .nav_shop{
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.nav_list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav_link{
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    text-transform: uppercase;
+    font-size: var(--h2-font-size);
+}
+
+.nav_link:hover{
+    color: var(--first-color);
+}
+
+.nav_close{
+    font-size: 2rem;
+    position: absolute;
+    top: .9rem;
+    right: 1.25rem;
+    cursor: pointer;
+}
