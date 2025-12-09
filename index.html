@@ -51,7 +51,97 @@
     </header>
 
     <div class="cart" id="cart">
+        <i class='bx bx-x cart_close' id="cart-close"></i>
 
+        <h2 class="cart_title-center">My Cart</h2>
+
+        <div class="cart_container">
+            <article class="cart_card">
+                <div class="cart_box">
+                    <img src="images/featured1.png" alt="" class="cart_img">
+                </div>
+
+                <div class="cart_details">
+                    <h3 class="cart_title">Jazzmaster</h3>
+                    <span class="cart_price">$1050</span>
+
+                    <div class="cart_amount">
+                        <div class="cart_amount-content">
+                            <span class="cart_amount-box">
+                                <i class='bx bx-minus'></i>
+                            </span>
+
+                            <span class="cart_amount-number">1</span>
+
+                            <span class="cart_amount-box">
+                                <i class='bx bx-plus'></i>
+                            </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart_amount-trash'></i>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cart_card">
+                <div class="cart_box">
+                    <img src="images/featured3.png" alt="" class="cart_img">
+                </div>
+
+                <div class="cart_details">
+                    <h3 class="cart_title">Rose Gold</h3>
+                    <span class="cart_price">$850</span>
+
+                    <div class="cart_amount">
+                        <div class="cart_amount-content">
+                            <span class="cart_amount-box">
+                                <i class='bx bx-minus'></i>
+                            </span>
+
+                            <span class="cart_amount-number">1</span>
+
+                            <span class="cart_amount-box">
+                                <i class='bx bx-plus'></i>
+                            </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart_amount-trash'></i>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cart_card">
+                <div class="cart_box">
+                    <img src="images/new1.png" alt="" class="cart_img">
+                </div>
+
+                <div class="cart_details">
+                    <h3 class="cart_title">Longines Rose</h3>
+                    <span class="cart_price">$980</span>
+
+                    <div class="cart_amount">
+                        <div class="cart_amount-content">
+                            <span class="cart_amount-box">
+                                <i class='bx bx-minus'></i>
+                            </span>
+
+                            <span class="cart_amount-number">1</span>
+
+                            <span class="cart_amount-box">
+                                <i class='bx bx-plus'></i>
+                            </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart_amount-trash'></i>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="cart_prices">
+            <span class="cart_prices-item">3 items</span>
+            <span class="cart_prices-total">$2880</span>
+        </div>
     </div>
 
     <main class="main">
@@ -310,155 +400,156 @@
         </section>
 
         <section class="new section container" id="new">
-                <h2 class="section_title">
-                    New Arrivals
-                </h2>
-                
-                <div class="new_container">
-                            <article class="new_card">
-                                <span class="new_tag">New</span>
-        
-                                <img src="images/new1.png" alt="" class="new_img">
-        
-                                <div class="new_data">
-                                    <h3 class="new_title">Longines rose</h3>
-                                    <span class="new_price">$980</span>
-                                </div>
-        
-                                <button class="button new_button">ADD TO CART</button>
-                            </article>
+            <h2 class="section_title">
+                New Arrivals
+            </h2>
 
-                            <article class="new_card">
-                                <span class="new__tag">New</span>
-        
-                                <img src="images/new2.png" alt="" class="new_img">
-        
-                                <div class="new_data">
-                                    <h3 class="new_title">Jazzmaster</h3>
-                                    <span class="new_price">$1150</span>
-                                </div>
-        
-                                <button class="button new_button">ADD TO CART</button>
-                            </article>
+            <div class="new_container">
+                <article class="new_card">
+                    <span class="new_tag">New</span>
 
-                            <article class="new_card">
-                                <span class="new_tag">New</span>
-        
-                                <img src="images/new3.png" alt="" class="new_img">
-        
-                                <div class="new_data">
-                                    <h3 class="new_title">Dreyfuss gold</h3>
-                                    <span class="new_price">$750</span>
-                                </div>
-        
-                                <button class="button new_button">ADD TO CART</button>
-                            </article>
+                    <img src="images/new1.png" alt="" class="new_img">
 
-                            <article class="new_card">
-                                <span class="new_tag">New</span>
-        
-                                <img src="images/new4.png" alt="" class="new_img">
-        
-                                <div class="new_data">
-                                    <h3 class="new_title">Portuguese rose</h3>
-                                    <span class="new_price">$1590</span>
-                                </div>
-        
-                                <button class="button new_button">ADD TO CART</button>
-                            </article>                       
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="newsletter section container">
-                <div class="newsletter_bg grid">
-                    <div>
-                        <h2 class="newsletter_title">Subscribe Our <br> Newsletter</h2>
-                        <p class="newsletter_description">
-                            Don't miss out on your discounts. Subscribe to our email newsletter to get the best offers, discounts, coupons, gifts and much more.
-                        </p>
+                    <div class="new_data">
+                        <h3 class="new_title">Longines rose</h3>
+                        <span class="new_price">$980</span>
                     </div>
 
-                    <form action="" class="newsletter_subscribe">
-                        <input type="email" placeholder="Enter your email" class="newsletter_input">
-                        <button class="button">
-                            SUBSCRIBE
-                        </button>
-                    </form>
+                    <button class="button new_button">ADD TO CART</button>
+                </article>
+
+                <article class="new_card">
+                    <span class="new__tag">New</span>
+
+                    <img src="images/new2.png" alt="" class="new_img">
+
+                    <div class="new_data">
+                        <h3 class="new_title">Jazzmaster</h3>
+                        <span class="new_price">$1150</span>
+                    </div>
+
+                    <button class="button new_button">ADD TO CART</button>
+                </article>
+
+                <article class="new_card">
+                    <span class="new_tag">New</span>
+
+                    <img src="images/new3.png" alt="" class="new_img">
+
+                    <div class="new_data">
+                        <h3 class="new_title">Dreyfuss gold</h3>
+                        <span class="new_price">$750</span>
+                    </div>
+
+                    <button class="button new_button">ADD TO CART</button>
+                </article>
+
+                <article class="new_card">
+                    <span class="new_tag">New</span>
+
+                    <img src="images/new4.png" alt="" class="new_img">
+
+                    <div class="new_data">
+                        <h3 class="new_title">Portuguese rose</h3>
+                        <span class="new_price">$1590</span>
+                    </div>
+
+                    <button class="button new_button">ADD TO CART</button>
+                </article>
+            </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="newsletter section container">
+            <div class="newsletter_bg grid">
+                <div>
+                    <h2 class="newsletter_title">Subscribe Our <br> Newsletter</h2>
+                    <p class="newsletter_description">
+                        Don't miss out on your discounts. Subscribe to our email newsletter to get the best offers,
+                        discounts, coupons, gifts and much more.
+                    </p>
                 </div>
-            </section>
+
+                <form action="" class="newsletter_subscribe">
+                    <input type="email" placeholder="Enter your email" class="newsletter_input">
+                    <button class="button">
+                        SUBSCRIBE
+                    </button>
+                </form>
+            </div>
+        </section>
     </main>
 
     <footer class="footer section">
-         <div class="footer_container container grid">
-                <div class="footer_content">
-                    <h3 class="footer_title">Our information</h3>
+        <div class="footer_container container grid">
+            <div class="footer_content">
+                <h3 class="footer_title">Our information</h3>
 
-                    <ul class="footer_list">
-                        <li>1234 - Peru</li>
-                        <li>La Libertad 43210</li>
-                        <li>123-456-789</li>
-                    </ul>
-                </div>
-                <div class="footer_content">
-                    <h3 class="footer_title">About Us</h3>
+                <ul class="footer_list">
+                    <li>1234 - Peru</li>
+                    <li>La Libertad 43210</li>
+                    <li>123-456-789</li>
+                </ul>
+            </div>
+            <div class="footer_content">
+                <h3 class="footer_title">About Us</h3>
 
-                    <ul class="footer_links">
-                        <li>
-                            <a href="#" class="footer_link">Support Center</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer_link">Customer Support</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer_link">About Us</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer_link">Copy Right</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="footer_content">
-                    <h3 class="footer__title">Product</h3>
-
-                    <ul class="footer_links">
-                        <li>
-                            <a href="#" class="footer_link">Road bikes</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer_link">Mountain bikes</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer_link">Electric</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer_link">Accesories</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="footer_content">
-                    <h3 class="footer_title">Social</h3>
-
-                    <ul class="footer_social">
-                        <a href="https://www.facebook.com/" target="_blank" class="footer_social-link">
-                            <i class='bx bxl-facebook'></i>
-                        </a>
-
-                        <a href="https://twitter.com/" target="_blank" class="footer_social-link">
-                            <i class='bx bxl-twitter' ></i>
-                        </a>
-
-                        <a href="https://www.instagram.com/" target="_blank" class="footer_social-link">
-                            <i class='bx bxl-instagram' ></i>
-                        </a>
-                    </ul>
-                </div>
+                <ul class="footer_links">
+                    <li>
+                        <a href="#" class="footer_link">Support Center</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer_link">Customer Support</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer_link">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer_link">Copy Right</a>
+                    </li>
+                </ul>
             </div>
 
-            <span class="footer_copy">&#169; Popa Daniel 2022. All rigths reserved</span>
+            <div class="footer_content">
+                <h3 class="footer__title">Product</h3>
+
+                <ul class="footer_links">
+                    <li>
+                        <a href="#" class="footer_link">Road bikes</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer_link">Mountain bikes</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer_link">Electric</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer_link">Accesories</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer_content">
+                <h3 class="footer_title">Social</h3>
+
+                <ul class="footer_social">
+                    <a href="https://www.facebook.com/" target="_blank" class="footer_social-link">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+
+                    <a href="https://twitter.com/" target="_blank" class="footer_social-link">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/" target="_blank" class="footer_social-link">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+        <span class="footer_copy">&#169; Popa Daniel 2022. All rigths reserved</span>
     </footer>
 </body>
 
